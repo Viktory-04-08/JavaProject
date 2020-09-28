@@ -83,6 +83,10 @@ public class MyList<T> {
         str+=i.info +" ";
         return str;
     }
-    
+     private static class Stack<T> {
+
+        public Stack() {
+        }
+    }
 
 }
